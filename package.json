@@ -1,14 +1,14 @@
 {
-  "name": "cidr.xyz",
+  "name": "cidrblocks.xyz",
   "version": "1.0.0",
-  "description": "Web-based CIDR / netmask / IP address visualizer",
+  "description": "Cloud based VPCs and Subnets Addresses Visualizer",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --open --mode development",
     "build": "webpack --mode production",
-    "deploy": "webpack --mode production && gh-pages -d dist"
+    "deploy": "webpack --mode production"
   },
-  "author": "",
+  "author": "brsuribabu",
   "license": "ISC",
   "devDependencies": {
     "webpack": "^4.18.0",
